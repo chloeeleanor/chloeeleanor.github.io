@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<head>
+	<title>HuffPost</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="global.css">
+	
+</head>
+<body>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+
+body {
+	width: 100%;
+}
+
+header {
+	width: 100%;
+}
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: white;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: pink;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: #56bb9a;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+section img{
+   width: 160px;
+}
+
+header h4 {
+	font-family: 'lato', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 180px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+h2{
+  font-family: 'lato', sans-serif;
+	font-weight: 700;
+	width: 100%;
+	font-size: 35px;
+	margin-top: 5px;
+	position: absolute;
+  bottom: 20px;
+  left: 16px;
+}
+
+.each_head{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+main {
+	width: 100%;
+	display: inline-block;
+}
+
+section {
+	max-width: 968px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+h1 {
+	font-family: 'lato', sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-style: italic;
+	margin-top: 100px;
+	margin-bottom: 5px;
+	width: 100%;
+	color: black;
+}
+
+h4 {
+	font-family: 'lato', sans-serif;
+  font-weight: 500;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.clear h4 {
+	font-family: 'lato', sans-serif;
+  font-weight: 500;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+h3 {
+	font-family: 'lato', sans-serif;
+    font-weight: 1000;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+h5 {
+	font-family: 'lato', sans-serif;
+	font-weight: 500;
+	width: 100%;
+	font-size: 25px;
+	margin-top: 20px;
+	color: gray;
+}
+
+
+figure {
+  width: 100%;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+header figure img {
+	width: 100%;
+  padding-top: 20px;
+}
+
+figure img {
+	width: 100%;
+  padding-top: 0px;
+}
+
+
+h6 {
+	font-family: 'lato', sans-serif;
+	font-weight: 700;
+	width: 100%;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-family: 'lato', sans-serif;
+	font-weight: 400;
+	width: 100%;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	line-height: 1.5em;
+}
+
+
+hr{
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+footer {
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+  padding-top:20px;
+  height: 2rem;
+  background-color: black;
+  color: #20B2AA;
+  font-weight: 100;
+  font-style: italic;
+  text-align: center;
+  	font-size: 12px;
+}
+
+
+
+	<header>
+	  <nav class="topnav">
+			<section>
+			  <div class="topnav">
+  <a href="#home" class="active"><img src= "Images/logo.png"/></a>
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Politics</a>
+    <a href="#about">About</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+			</section>
+		</nav>
+    </header>
+	<center>
+	<main>
+	  
+		<header>
+			<div class="each_head">
+				<figure><img src="Images/trump.jpg"></figure>
+				<div class="text">
+				  <h4  align="left">Breaking News:</h4>
+					<h2  align="left">White House Blocks Coronavirus Task Force Members From Testifying To Congress</h2>
+				</div>
+			</div>
+		</header>
+		
+		<section>
+			<h3>CORONAVIRUS</h3>
+			<div class="each_feature">
+				<h4>Millions Of Americans Still Haven’t Received Their Stimulus Checks</h4>
+			</div>
+			<hr>
+			<div class="each_feature">
+				<h4>Trump Storms Out Of Coronavirus Briefing After Female Reporters Challenge Him</h4>
+			</div>
+			<hr>
+			<div class="each_feature">
+				<h4>Ex-GOP Strategist: ‘If Obama Was President, This Would Not Have Happened’</h4>
+			</div>
+			<hr>
+			<div class="each_feature">
+				<h4>Chris Cuomo Hits Trump’s Coronavirus Claims With A Blunt Reality Check</h4>
+			</div>
+			<hr>
+			<div class="each_feature">
+				<h4>LIVE UPDATES: Read The Latest News On The Coronavirus Pandemic</h4>
+			</div>
+		</section>
+		 
+		<div class="clear"></div>
+		<section>
+			<h3>LATEST NEWS</h3>
+			<div class="each_latest">
+				<figure><img src="images/fig1.jpg"></figure>
+				<div class="text">
+					<h4><a href="article.html">Politics</a></h4>
+					<p>2,000 Former Justice Officials Demand William Barr Resign Over Michael Flynn Case
+					</div>
+			<div class="each_latest">
+				<figure><img src="images/fig2.webp"></figure>
+				<div class="text">
+					<h4><a href="article.html">Politics</a></h4>
+					<p>Justice Department Investigating Ahmaud Arbery Killing As Possible Hate Crime: Reports</p>
+			</div>
+			<div class="each_latest">
+				<figure><img src="images/fig3.webp"></figure>
+				<div class="text">
+					<h4><a href="article.html">Coronavirus</a></h4>
+					<p>St. Louis Post-Dispatch Editorial Exposes Trump’s ‘Colossal’ Lie About Obama</p>
+			</div>
+			<div class="each_latest">
+				<figure><img src="images/fig4.webp"></figure>
+				<div class="text">
+					<h4><a href="article.html">U.S. News</a></h4>
+					<p>White Woman Calls Cops On Black Man Over Dog Leash Dispute In Viral Footage</p>
+			</div>
+			<div class="each_latest">
+				<figure><img src="images/fig5.webp"></figure>
+				<div class="text">
+					<h4><a href="article.html">Coronavirus</a></h4>
+					<p>Fox News Doc Points Out Major Flaw With Trump’s Plan To Hold Packed RNC Amid Pandemic
+          </p>
+				</div>
+			<div class="each_latest">
+				<figure><img src="images/fig6.webp"></figure>
+				<div class="text">
+					<h4><a href="article.html">Crime</a></h4>
+					<p>Jeffrey Dahmer’s Classmate Reveals Chilling Photo Of Future Serial Killer</p>
+					</div>
+			</div>
+</main>
+	<footer>
+	
+			Part of HuffPost News. ©2020 Verizon Media. All rights reserved. Huffington Post.
+	
+	</footer>
+	<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</center>
+</body>
+</html>
