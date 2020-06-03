@@ -1,0 +1,182 @@
+@import url('https://fonts.google.com/specimen/Roboto/');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+html {
+	width: 100%;
+}
+
+body {
+	width: 100%;
+}
+
+header {
+	width: 100%;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: white;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: #56bb9a;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+section img{
+   width: 160px;
+}
+main {
+	width: 100%;
+	display: inline-block;
+}
+
+section {
+	max-width: 375px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+article {
+	width: 100%
+}
+
+
+.left {
+	width: 65%;
+	padding-right: 5%;
+	float: left
+}
+
+.right {
+	width: 30%;
+	float: left;
+}
+
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 100%;
+	color: black;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	width: 100%;
+	font-size: 11px;
+	margin-top: 20px;
+	color: white;
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	width: 100%;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+h5 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	width: 100%;
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+figure {
+  width: 100%;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+figure img {
+	width: 100%
+}
+
+
+h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	width: 100%;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	width: 100%;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	line-height: 1.5em;
+	font-size: 15px;
+}
+
+aside {
+	width: 100%;
+	Background-color: #E8E8E8;
+}
+
+aside h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;}
+	
+li {
+  font-size: 15px;
+  line-height:30px;
+}
+
+.footer  {
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+  padding-top:10px;
+  height: 4rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+	font-family 'Roboto', sans-serif;
+	display: block;
+}
